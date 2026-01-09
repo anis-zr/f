@@ -1,0 +1,18 @@
+/*import React from 'react'
+import useUser from '../../hooks/useUser'
+import{HashLoader} from'react-spinners'
+import DashboardNavigate from '../../routes/dashboardNavigate'
+const Dashboard = () => {
+  const {currentUser, isloading} = useUser()
+  const role = currentUser?.role
+  if(isloading){
+    return <div className='flex justify-center items-center h-screen'>
+       <HashLoader color='#FF1949' size={50}/></div>
+  }
+  return (
+   < DashboardNavigate/>
+  )
+}
+
+export default Dashboard
+*/
