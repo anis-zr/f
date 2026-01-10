@@ -7,7 +7,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
-import axiosInstance from "../axios";
+import axiosInstance from "../provider/axios";
 
 
 const Registerr=()=> {

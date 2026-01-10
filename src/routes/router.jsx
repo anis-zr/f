@@ -3,8 +3,8 @@ import MainLayout from "../layout/MainLayout"
 import Home from "../pages/Home/Home"
 
 import Instructors from "../pages/instructors/Instructors";
-import Login from "../utils/provider/user/login";
-import Register from "../utils/provider/user/Register";
+import Login from "../utils/user/login";
+import Register from "../utils/user/Register";
 import DashboardLayout from "../layout/DashboardLayout";
 //import Dashboard from "../pages/dashboard/dashboard";
 
@@ -21,7 +21,7 @@ import StateStatsPage from "@/pages/dashboard/student/Market/StateStatsPage";
 //import  Store  from "@/pages/dashboard/Store";
 import { BudgetDetail } from "@/pages/dashboard/student/paiment/Budgetdetail";
 import StateStatssPage from "@/pages/dashboard/student/Market/StateStatsPagee";
-import Registerr from "@/utils/provider/user/registerr";
+import Registerr from "@/utils/user/registerr";
 import St from "@/pages/dashboard/student/Market/st";
 import Stt from "@/pages/dashboard/student/Market/stt";
 
