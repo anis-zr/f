@@ -10,7 +10,7 @@ import DashboardLayout from "../layout/DashboardLayout";
 
 import Market from "../pages/dashboard/student/Market/Market";
 
-import Paiment from "../pages/dashboard/student/paiment/paiment";
+import Paiment from "../pages/dashboard/student/paiment/Paiment";
 import Crud from "../pages/dashboard/student/crud/crud";
 import { Toaster } from "sonner";
 
