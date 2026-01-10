@@ -3,7 +3,7 @@ import MainLayout from "../layout/MainLayout"
 import Home from "../pages/Home/Home"
 
 import Instructors from "../pages/instructors/Instructors";
-import Login from "../utils/user/login";
+import Login from "../utils/user/Login";
 import Register from "../utils/user/Register";
 import DashboardLayout from "../layout/DashboardLayout";
 //import Dashboard from "../pages/dashboard/dashboard";
