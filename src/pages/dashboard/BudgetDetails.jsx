@@ -441,7 +441,7 @@ export default function BudgetDetails() {
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { CreateIncome } from './Createincome';
-import {IncomeList} from './incomelist';
+import { IncomeList } from './Incomelist';
 
 export  function BudgetDetails() {
   const { budgetId } = useParams(); // هذا هو ID الميزانية

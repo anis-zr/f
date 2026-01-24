@@ -1,3 +1,4 @@
+import Products from "./partials/Products";
 
 
 const Storee = () => {

@@ -12,7 +12,7 @@ import Market from "../pages/dashboard/student/Market/Market";
 
 import Paiment from "../pages/dashboard/student/paiment/Paiment";
 import Crud from "../pages/dashboard/student/crud/Crud";
-import { Toaster } from "sonner";
+//import { Toaster } from "sonner";
 
 import { BudgetDetails } from "@/pages/dashboard/BudgetDetails";
 
@@ -43,7 +43,7 @@ export const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "instructors", element: <Instructors /> },
-      { path: "classes", element: <Classes /> },
+   
       { path: "login", element: <Login /> },
       { path: "register", element: <Register /> },
          { path: "registerr", element: <Registerr /> },
