@@ -149,7 +149,7 @@ export default function Market() {
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import InfoCard from './InfoCard';
+
 import { useQuery } from '@tanstack/react-query';
 import axiosInstance from '@/utils/provider/axios';
 import CustomPieChart from './CustomPieChart';
