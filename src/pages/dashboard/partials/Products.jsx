@@ -21,19 +21,19 @@ const Products = () => {
                 <li>
                   <label className="flex items-center space-x-2 space-x-reverse">
                     <input type="checkbox" className="text-green-600" />
-                    <span>الأسمدة</span>
+                    <span>الخضر</span>
                   </label>
                 </li>
                 <li>
                   <label className="flex items-center space-x-2 space-x-reverse">
                     <input type="checkbox" className="text-green-600" />
-                    <span>البذور</span>
+                    <span>الفواكه</span>
                   </label>
                 </li>
                 <li>
                   <label className="flex items-center space-x-2 space-x-reverse">
                     <input type="checkbox" className="text-green-600" />
-                    <span>المبيدات</span>
+                    <span>اخرى</span>
                   </label>
                 </li>
               </ul>
@@ -70,14 +70,13 @@ const Products = () => {
               {/* منتج 1 */}
               <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
                 <img
-                  src="https://via.placeholder.com/400x300"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCnUGKPh1amTBnWPDofMmwOmKTaSSAVyjWHA&s"
                   alt="منتج"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
                   <h4 className="text-lg font-bold text-green-800 mb-1">
-                    سماد عضوي طبيعي
-                  </h4>
+                     عنب ممتازة   </h4>
                   <p className="text-gray-600 text-sm mb-2">مناسب لجميع أنواع التربة</p>
                   <p className="text-green-700 font-semibold mb-4">2500 دج / كيس</p>
                   <button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg transition">
@@ -90,13 +89,13 @@ const Products = () => {
 {/* منتج 2 */}
               <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
                 <img
-                  src="https://via.placeholder.com/400x300"
+                  src="https://files.ekmcdn.com/719dfc/images/tomate-crimson-crush-f1-8077-p.png"
                   alt="منتج"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
                   <h4 className="text-lg font-bold text-green-800 mb-1">
-                    بذور طماطم عالية الجودة
+                     طماطم عالية الجودة
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">مردودية ممتازة ومقاومة للأمراض</p>
                   <p className="text-green-700 font-semibold mb-4">1200 دج / كغ</p>
@@ -109,13 +108,13 @@ const Products = () => {
               {/* منتج 3 */}
               <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
                 <img
-                  src="https://via.placeholder.com/400x300"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUITgIDu3-1Tk7QUHtSF1OF7-8XmEGniME0vCSfy-Qg&s"
                   alt="منتج"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
                   <h4 className="text-lg font-bold text-green-800 mb-1">
-                    مبيد حشري طبيعي
+                   بطاطا
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">صديق للبيئة وآمن على المحاصيل</p>
                   <p className="text-green-700 font-semibold mb-4">3500 دج / لتر</p>
